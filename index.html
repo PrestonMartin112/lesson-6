@@ -6,8 +6,12 @@
      <meta http-equiv= "X-UA-Copmpatible" content="IE-EDGE">
 
 <!--links to css files or font files-->
+<!--
     <link rel="stylesheet" type='text/css' 
           href="css/framework.css">
+-->
+     <link rel="stylesheet" type='text/css' 
+          href="css/bootstrap.min.css">
 <link rel="stylesheet" type='text/css' 
       href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
@@ -15,8 +19,9 @@
     
 </head>
    <body>
+       <div class="container">
         <div class='row'>
-            <div class='col-12 border'>
+            <div class='col-md-12 border'>
           
              <header id="header">
                  
@@ -28,7 +33,7 @@
             </div>
        </div>
        <div class='row'>
-        <div class='col-12 , border'>
+        <div class='col-md-12 , border'>
            <nav id="nav">
                <ul class="button-wrap">
                 <button>Schedule</button>
@@ -43,11 +48,11 @@
            
           
        <div class='row max-width'>
-            <div class='col-8 , border'>
+            <div class='col-md-8 , border'>
                 <div id='middle-wrapper-width'>
                     <div id='main-content-wrapper'>
-                        <div class="side-by-side">
-                            <section class="image-content">
+                        <div class="row">
+                            <section class="image-content col-6">
                             
                                 <img src="images/imageplaceholder.svg">
                                 <h4>
@@ -69,7 +74,7 @@
                 </div>
               </div>
            
-                <div class="col-4 , border">
+                <div class="col-md-4 , border">
                     <div id="aside-content-wrapper">
                         <aside id='aside-right'>
                         <h3>Latest Work</h3>
@@ -94,23 +99,27 @@
         
             <div id='favorite-sites' class='row'>
             
-               <div class='col-4 border'>
+               <div class='col-md-4 border'>
                  <img src='images/Facebook.png'>
                     </div>
-               <div class='col-4 border'>
+               <div class='col-md-4 border'>
                  <img src="images/googleplus.jpg">
                  </div>
-               <div class='col-4 border'>
+               <div class='col-md-4 border'>
                  <img src="images/twitter.png">
                  </div>
                  
             </div>
        <div class="row">
-           <div class="col-12 border">
+           <div class="col-md-12 border">
                <footer>Footy</footer>
           </div>
         </div>
+       </div>
     <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+       
   </body>
 
 
